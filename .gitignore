@@ -1,23 +1,23 @@
 # Unity specific
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
 
 # Android build files
-/[Gg]radle/
+/Gradle/
 /gradlew
 /gradlew.bat
 
 # Bee/IL2CPP files
-/[Pp]roj/
-/[Gg]radleUnity/
+/Proj/
+/GradleUnity/
 
 # Burst debug information
 *_BurstDebugInformation_DoNotShip/
 
 # Auto-generated game files
-/[Aa]ssets/AssetStoreTools*
+/Assets/AssetStoreTools*
