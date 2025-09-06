@@ -1,0 +1,2 @@
+C:\Users\shilo\Documents\Git\Seventh semester\AR\UnityProjects\PR2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\shilo\Documents\Git\Seventh semester\AR\UnityProjects\PR2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
