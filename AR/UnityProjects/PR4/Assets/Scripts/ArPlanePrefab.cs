@@ -1,49 +1,58 @@
 using UnityEngine;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
 [RequireComponent((typeof(ARRaycastManager)))]
 public class ArPlanePrefab : MonoBehaviour
 {
-    static List<ARRaycastHit> s_hits = new List<ARRaycastHit>();
-    private ARRaycastManager raycastManager;
-    public GameObject PlaceablePrefab;
-    private GameObject spawnedPlane;
-
+    private ARRaycastManager _raycastManager;
+    private GameObject _spawnedObject;
+    private List<GameObject> _placedPrefabsList = new List<GameObject>();
+    [SerializeField] private int maxPrefabsSpawnCount = 4;
+    public GameObject placeablePrefab;
+    static List<ARRaycastHit> _sHits = new List<ARRaycastHit>();
+    
     private void Awake()
     {
-        raycastManager = GetComponent<ARRaycastManager>();
+        _raycastManager = GetComponent<ARRaycastManager>();
     }
 
-    bool TryGetTouchPosition(out Vector2 position)
+    bool TryGetTouchPosition(out Vector2 touchPosition)
     {
-        if (Input.touchCount > 0)
+        if (Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            position = Input.GetTouch(0).position;
+            touchPosition = Input.GetTouch(0).position;
             return true;
         }
-        position = default;
+        
+        touchPosition = default;
         return false;
     }
-
+    
     void Update()
     {
         if (!TryGetTouchPosition(out var touchPosition)) return;
-
-        if (raycastManager.Raycast(touchPosition, s_hits, TrackableType.PlaneWithinPolygon))
+        if (_raycastManager.Raycast(touchPosition, _sHits, TrackableType.PlaneWithinPolygon))
         {
-            var hitPose = s_hits[0].pose;
-            if (spawnedPlane == null)
-            {
-                spawnedPlane = Instantiate(PlaceablePrefab, hitPose.position, hitPose.rotation);
-            }
-            else
-            {
-                spawnedPlane.transform.position = hitPose.position;
-                spawnedPlane.transform.rotation = hitPose.rotation;
-            }
+            var hitPose = _sHits[0].pose;
+            if (_placedPrefabsList.Count < maxPrefabsSpawnCount) SpawnPrefab(hitPose);
         }
         
+    }
+
+    private void SpawnPrefab(Pose hitPose)
+    {
+        _spawnedObject = Instantiate(placeablePrefab, hitPose.position, hitPose.rotation);
+        _placedPrefabsList.Add(_spawnedObject);
+    }
+
+
+    public TextMeshProUGUI tmpGUI;
+    public void SetPrefabType(GameObject prefab)
+    {
+        placeablePrefab = prefab;
+        tmpGUI.text = placeablePrefab.name;
     }
 }
