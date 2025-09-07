@@ -496,7 +496,6 @@ GameObject:
   - component: {fileID: 1858956249}
   - component: {fileID: 1858956248}
   - component: {fileID: 1858956247}
-  - component: {fileID: 1858956246}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -504,22 +503,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1858956246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1858956245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 482b6ed0e2ad97848a141e8be1ea398e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AddObjectsToFace
-  arFace: {fileID: 0}
-  indexes: 010000000e0000004e000000
-  pointerScale: 0.1
-  prefab: {fileID: 0}
 --- !u!114 &1858956247
 MonoBehaviour:
   m_ObjectHideFlags: 0
