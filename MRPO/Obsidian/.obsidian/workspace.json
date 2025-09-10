@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "641196b6b2ba47b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8d61afd3ac52f40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21ea36abea159936",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Kanban"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9728dd9270072ab8",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd9bc273a43d5a37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "165a7aed7780237d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f18209d4b50b3fc8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4043d28b595d560f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270.5
+  },
+  "right": {
+    "id": "39fca9e7495159c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a6bb8174fb2aebc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5f02fe8ca53381d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Kanban"
+            }
+          },
+          {
+            "id": "02241d1ffe9ebf11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Kanban"
+            }
+          },
+          {
+            "id": "a3fa0826fbe1224a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d87ad52ee141dc19",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Kanban.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Kanban"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "21ea36abea159936",
+  "lastOpenFiles": [
+    "Kanban.md",
+    "Kanban/Фильтрация лекарств.md",
+    "Kanban/Управление корзиной.md",
+    "Kanban/Вход в систему.md",
+    "Kanban/Поиск лекарств.md",
+    "Kanban/Введение личного списка лекарств.md",
+    "Kanban/Управление заказами.md",
+    "Kanban/Просмотр детальной информации о товаре.md",
+    "Kanban/Управление складским учетом.md",
+    "Kanban",
+    "Kanban/Написание отзывов о товаре.md",
+    "Kanban/Обращение в поддержку.md",
+    "Управление складским учетом @{2025-09-24}.md",
+    "Требования к функциональности.md",
+    "Проектирование функциональности.md",
+    "Мастер план по тестированию.md",
+    "Веб-платформа - Онлайн аптека.md"
+  ]
+}
