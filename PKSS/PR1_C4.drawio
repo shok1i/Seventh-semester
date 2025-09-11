@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.1.2">
+  <diagram name="Страница — 1" id="WS05AW2JCWnxJufxmyO2">
+    <mxGraphModel dx="810" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-2" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;System&quot;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Логика игры&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&quot;Основная логика игры&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-3" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&quot;System&quot;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Витрина предметов&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&quot;Основная логика для витрины&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="370" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9motPJf6VzgEQj2Mm-Gw-6" target="9motPJf6VzgEQj2Mm-Gw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-5" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;oAuth&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;(HTTPS)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="9motPJf6VzgEQj2Mm-Gw-4">
+          <mxGeometry x="-0.4356" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;ExternalSystem&quot;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;SSO/ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&quot;Аутентификация&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="330" as="sourcePoint" />
+            <mxPoint x="330" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="350" />
+              <mxPoint x="280" y="350" />
+              <mxPoint x="280" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-8" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;fetch&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(HTTPS)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;textShadow=0;labelBackgroundColor=none;" vertex="1" connectable="0" parent="9motPJf6VzgEQj2Mm-Gw-7">
+          <mxGeometry x="-0.1167" y="-2" relative="1" as="geometry">
+            <mxPoint x="-18" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-9" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;ExternalSystem&quot;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Инвентарь&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&quot;Учет всех предметов игрока&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-10" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;Person&quot;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Администратор&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;Администрирование системы&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9motPJf6VzgEQj2Mm-Gw-13" target="9motPJf6VzgEQj2Mm-Gw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-12" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Авторитарный&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;сервер&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0" parent="9motPJf6VzgEQj2Mm-Gw-11">
+          <mxGeometry x="-0.5389" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-13" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;Person&quot;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Игрок&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;Взаимодействует с игрой&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9motPJf6VzgEQj2Mm-Gw-16" target="9motPJf6VzgEQj2Mm-Gw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-15" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Отправляет запрос&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(HTTPS)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9motPJf6VzgEQj2Mm-Gw-14">
+          <mxGeometry x="-0.2056" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-16" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;Person&quot;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Маркетолог&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;Отслеживание настроений на площадке&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9motPJf6VzgEQj2Mm-Gw-19" target="9motPJf6VzgEQj2Mm-Gw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-18" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Отправляет&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;обновление&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(HTTPS/SSH)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9motPJf6VzgEQj2Mm-Gw-17">
+          <mxGeometry x="-0.2417" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9motPJf6VzgEQj2Mm-Gw-19" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;Person&quot;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Геймдизайнер&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&quot;Настраивает ценовую полиитику предметов&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
